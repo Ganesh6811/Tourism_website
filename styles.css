@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFAFA;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+.nav-bar {
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin: 0 20px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: #FFD700;
+}
+
+
+.image-container {
+    height: 700px;
+    background-image: url('./images/tourist.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.who {
+    padding: 50px;
+    background-color: #E8EAE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.who img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.who-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.who-content h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.who-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+.destination {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.destination h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.destination-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-item img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destination-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.destination-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.about-me {
+    padding: 50px;
+    background-color: #E8EAE6;
+    text-align: center;
+}
+
+.about-me h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact {
+    padding: 50px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #555;
+}
